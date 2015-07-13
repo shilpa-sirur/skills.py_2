@@ -185,9 +185,6 @@ def encode(phrase):
     output=""
     for i in phrase:
         output=phrase.replace("e", "p").replace("a", "d").replace("t", "o").replace("i", "u")
-        output=output.replace("a", "d")
-        output=output.replace("t", "o")
-        output=output.replace("i", "u")
     return output
 
 
